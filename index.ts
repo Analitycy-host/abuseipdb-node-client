@@ -37,6 +37,6 @@ export default class AbuseIPDBClient {
             }
         })
         let response = await request.json()
-        return response
+        return response.data
     }
 }
